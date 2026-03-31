@@ -17,15 +17,15 @@ GAIa operates on a three-tier architecture designed for scalability and observab
 ### Key Features
    -Memory-Augmented Conversations: Implements long-term context retention using a hybrid approach of localized vector storage and sliding-window history.
    -Multi-Agent Coordination: Supports specialized agents (e.g., "Research Agent," "Code Architect") that can collaborate on multi-step objectives.
-   -Infrastructure Agnostic: Designed to run seamlessly across Fedora Linux, macOS, and containerized environments (Docker/Kubernetes).
+   -Infrastructure Agnostic: Designed to run seamlessly across Fedora Linux, macOS, and containerized environments (Docker/Kubernetes)
    -Observability: Integrated hooks for the Theia monitoring system to track token usage, latency, and retrieval accuracy.
 
 ### Software Stack
-Language: Python 3.12+
-Orchestration: LangChain / LangGraph
-Vector Database: ChromaDB (migrating to Pinecone)
-Embeddings: OpenAI text-embedding-3
-Inference: OpenAI API / Anthropic / Local LLMs via Ollama
+   -Language: Python 3.12+
+   -Orchestration: LangChain / LangGraph
+   -Vector Database: ChromaDB (migrating to Pinecone)
+   -Embeddings: OpenAI text-embedding-3
+   -Inference: OpenAI API / Anthropic / Local LLMs via Ollama
 
 ### Hardware Specification (Nodes: Io & Europa)
 GAIa is tuned for bursty, high-load AI workloads with a focus on maximum thermal headroom.
