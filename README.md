@@ -15,17 +15,17 @@ GAIa operates on a three-tier architecture designed for scalability and observab
    3. Integration Layer: A suite of extensible "tools" that allow the agent to interact with external APIs, local file systems, and the Jupiter edge computing cluster.
 
 ### Key Features
-   -Memory-Augmented Conversations: Implements long-term context retention using a hybrid approach of localized vector storage and sliding-window history.
-   -Multi-Agent Coordination: Supports specialized agents (e.g., "Research Agent," "Code Architect") that can collaborate on multi-step objectives.
-   -Infrastructure Agnostic: Designed to run seamlessly across Fedora Linux, macOS, and containerized environments (Docker/Kubernetes)
-   -Observability: Integrated hooks for the Theia monitoring system to track token usage, latency, and retrieval accuracy.
+   1. Memory-Augmented Conversations: Implements long-term context retention using a hybrid approach of localized vector storage and sliding-window history.
+   2. Multi-Agent Coordination: Supports specialized agents (e.g., "Research Agent," "Code Architect") that can collaborate on multi-step objectives.
+   3. Infrastructure Agnostic: Designed to run seamlessly across Fedora Linux, macOS, and containerized environments (Docker/Kubernetes)
+   4. Observability: Integrated hooks for the Theia monitoring system to track token usage, latency, and retrieval accuracy.
 
 ### Software Stack
-   -Language: Python 3.12+
-   -Orchestration: LangChain / LangGraph
-   -Vector Database: ChromaDB (migrating to Pinecone)
-   -Embeddings: OpenAI text-embedding-3
-   -Inference: OpenAI API / Anthropic / Local LLMs via Ollama
+   1. Language: Python 3.12+
+   2. Orchestration: LangChain / LangGraph
+   3. Vector Database: ChromaDB (migrating to Pinecone)
+   4. Embeddings: OpenAI text-embedding-3
+   5. Inference: OpenAI API / Anthropic / Local LLMs via Ollama
 
 ### Hardware Specification (Nodes: Io & Europa)
 GAIa is tuned for bursty, high-load AI workloads with a focus on maximum thermal headroom.
