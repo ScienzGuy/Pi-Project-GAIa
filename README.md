@@ -1,7 +1,7 @@
 # GAIa: Generative AI Assistant & Orchestration Framework
 ## High-Performance Ollama Implementation on Overclocked Pi 5
 
-### 🌌 Overview
+### Overview
 GAIa (General AI assembly) is a specialized two-node sub-cluster engineered for private, localized Large Language Model (LLM) inference. The cluster is comprised of two Raspberry Pi 5 nodes—Io and Europa—operating in a unified bare-metal environment.
 
 The project represents a deep-dive into maximizing ARM-based silicon, moving away from the overhead of container orchestration toward a high-performance **Bare Metal** architecture for the inference engine. This design ensures the cluster can handle 7B and 8B parameter models with minimal token-generation latency.
