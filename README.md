@@ -8,7 +8,7 @@ The project represents a deep-dive into maximizing ARM-based silicon, moving awa
 
 GAIA is a modular, agent-based framework designed to bridge the gap between static Large Language Models (LLMs) and dynamic, data-driven environments. Built with a focus on Retrieval-Augmented Generation (RAG) and Agentic Workflows, GAIA enables the automation of complex reasoning tasks by integrating with local and cloud-based data sources.
 
-#### 1. Architectural Overview
+## 1. Architectural Overview
 
 Project GAIa splits model inference workloads across four physical nodes over a high-throughput, Power-over-Ethernet (PoE) switched backplane. To eliminate container virtualization overhead and ensure direct, unthrottled access to hardware registers and memory controllers, the primary text generation pipelines run directly on host bare metal.
 
