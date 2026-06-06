@@ -61,17 +61,10 @@ To overcome these challenges, the cluster was pivoted away from dynamic P2P orch
 
 ---
 
-## 4. Operational Deployment Commands
+## 4. Future Roadmap
+* [ ] **Distributed RAG Ingestion Layer:** Integrating an isolated, containerized Vector Database sidecar (Qdrant/Chroma) using persistent disk mappings without altering the bare-metal execution parameters.
+* [ ] **Optimized Context Window Expansion:** Fine-tuning flash attention alternatives compiled specifically for the ARM Neon vector engine architecture.
 
-### Native Inference Pipeline Control
-To check, restart, or audit the bare-metal inference thread across any node (`io`, `europa`, `ganymede`, or `callisto`):
-
-```bash
-# Check raw process telemetry
-sudo systemctl status llama-inference.service
-
-# Stream hardware execution logs
-sudo journalctl -u llama-inference.service -f -n 100
 ---
 
-Maintained by Scienz_Guy | 2026
+### **Maintained By**
