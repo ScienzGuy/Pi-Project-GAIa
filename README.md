@@ -2,7 +2,7 @@
 ## High-Performance Llama.cpp Implementation on Overclocked Pi 5
 
 ### Overview
-A high-performance, 4-node Raspberry Pi 5 computing cluster engineered for distributed LLM inference, optimized local token generation, and real-time model horizontal sharding. Project GAIA operates as a dedicated neural compute subsystem within the Project Jupiter network mesh.
+A high-performance, 4-node Raspberry Pi 5 computing cluster engineered for distributed LLM inference, optimized local token generation, and real-time model horizontal sharding.
 
 The project represents a deep-dive into maximizing ARM-based silicon, moving away from the overhead of container orchestration toward a high-performance **Bare Metal** architecture for the inference engine. This design ensures the cluster can handle 20B parameter models with minimal token-generation latency.
 
