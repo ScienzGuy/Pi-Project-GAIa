@@ -10,7 +10,7 @@ GAIA is a modular, agent-based framework designed to bridge the gap between stat
 
 ## 1. Architectural Overview
 
-Project GAIa splits model inference workloads across four physical nodes over a high-throughput, Power-over-Ethernet (PoE) switched backplane. To eliminate container virtualization overhead and ensure direct, unthrottled access to hardware registers and memory controllers, the primary text generation pipelines run directly on host bare metal.
+Project GAIA splits model inference workloads across four physical nodes over a high-throughput, Power-over-Ethernet (PoE) switched backplane. To eliminate container virtualization overhead and ensure direct, unthrottled access to hardware registers and memory controllers, the primary text generation pipelines run directly on host bare metal.
 
 ### Hardware Topology
 * **Compute Nodes:** 4× Raspberry Pi 5 (8GB LPDDR5X-4267)
